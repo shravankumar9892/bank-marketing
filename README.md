@@ -3,8 +3,20 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 
 
 
-Following up on the [Lynda](https://www.lynda.com/Amazon-Web-Services-tutorials/) course on AWS I have saved the predictions file in [here](https://s3.amazonaws.com/bankclassification/batch-prediction/result/bp-rJMOP4ZEfnn-bank-additional-test.csv.gz). The summary of the trained model is as follows:
-
+In this repository I am focusing on how to use Amazon ML from your local machine. If you want to use the GUI, follow these 10 simple steps: 
+1. Go to [aws](https://aws.amazon.com/).
+2. Sign in to the Console
+3. Set region as either US East(Virginia) or EU (Ireland)
+4. Save dataset in a S3 Bucket or Amazon Redshift cluster.
+5. Click on services -> Machine Learning
+6. If you do not have any previously created ML model, click -> Get Started.
+7. Standard Setup -> Launch
+8. Enter bucket name and datasource name(optional).
+9. Create the Data Schema 
+10. Enter target variable from your dataset.
+11. Review your datasource info.
+ 
+ This [Lynda](https://www.lynda.com/Amazon-Web-Services-tutorials/) course on AWS will make using Amazon ML concept more clear. When I used Amazon ML I go this result 
 
 
 ![Summary](images/summary.png)
