@@ -16,7 +16,7 @@ In this repository I am focusing on how to use Amazon ML from your local machine
 10. Enter target variable from your dataset.
 11. Review your datasource info.
  
- This [Lynda](https://www.lynda.com/Amazon-Web-Services-tutorials/) course on AWS will make using Amazon ML concept more clear. When I used Amazon ML I go this result 
+When I used Amazon ML I go this result 
 
 
 ![Summary](images/summary.png)
